@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cloud Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>☁️ Cloud Task Manager</h1>
+            <p>Manage your daily tasks in one place.</p>
+        </header>
+
+        <section class="task-box">
+
+            <h2>My Tasks</h2>
+
+            <form id="task-form">
+                <input
+                    type="text"
+                    id="task-input"
+                    placeholder="Enter your task"
+                    maxlength="200"
+                    required
+                >
+
+                <button type="submit">Add Task</button>
+            </form>
+
+            <p id="task-count">Total Tasks: 0</p>
+
+            <ul id="task-list"></ul>
+
+            <p id="empty-message">No tasks yet. Add your first task!</p>
+
+        </section>
+
+        <footer>
+            <p>Cloud Task Manager | Cloud Computing Project</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
